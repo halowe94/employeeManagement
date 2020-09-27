@@ -1,6 +1,7 @@
 //dependencies
 const mysql = require("mysql");
 const inquirer = require("inquirer");
+const questions = require('./questions');
 
 //create connection to database
 let connection = mysql.createConnection({
@@ -18,3 +19,8 @@ let connection = mysql.createConnection({
      }
     promptQuestions();
  })
+
+ //function to prompt questions
+ function promptQuestions () {
+     inquirer.prompt(questions);
+ }

@@ -1,5 +1,3 @@
-const { listenerCount } = require("process");
-
 let questions = [
     {
         type: "list",
@@ -45,3 +43,5 @@ let questions = [
         message: "What is the employee's manger's ID?"
     }
 ];
+
+module.exports = questions;
