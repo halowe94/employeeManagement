@@ -10,6 +10,8 @@ let connection = mysql.createConnection({
     password: '',
     database: 'employeeManagement'
 });
+
+//error function for connection
  connection.connect(err => {
      if (err) {
          return console.error('error' + err.message);
