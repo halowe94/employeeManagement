@@ -8,7 +8,7 @@ let connection = mysql.createConnection({
     host: 'localhost',
     port: 3306,
     user: 'root',
-    password: '',
+    password: 'WadiRum2018!',
     database: 'employeeManagement'
 });
 

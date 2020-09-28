@@ -20,7 +20,7 @@ let questions = [
     {
         type: 'input',
         name: 'salary',
-        message: 'Salary for' + questions.role,
+        message: 'What is the salary for this role?',
     },
     {
         type: 'input',
